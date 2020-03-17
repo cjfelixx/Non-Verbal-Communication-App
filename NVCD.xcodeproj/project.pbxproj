@@ -16,7 +16,11 @@
 		5004586923F682D200A793CD /* NVCDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5004586823F682D200A793CD /* NVCDTests.swift */; };
 		5004587423F682D200A793CD /* NVCDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5004587323F682D200A793CD /* NVCDUITests.swift */; };
 		507EC1F0241992EC00BE356D /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507EC1EF241992EC00BE356D /* Test.swift */; };
-		50C45CBE241A5C0900A040D7 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C45CBD241A5C0900A040D7 /* Grid.swift */; };
+		5081D7EA2420BA8E00A937B1 /* Nurse2patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5081D7E92420BA8E00A937B1 /* Nurse2patient.swift */; };
+		5081D7EC2420BABC00A937B1 /* Family2patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5081D7EB2420BABC00A937B1 /* Family2patient.swift */; };
+		5081D7EE2420BAD100A937B1 /* EmergencyCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5081D7ED2420BAD100A937B1 /* EmergencyCall.swift */; };
+		5081D7F02420BBBE00A937B1 /* GridStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5081D7EF2420BBBE00A937B1 /* GridStack.swift */; };
+		5081D7F22420C21000A937B1 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5081D7F12420C21000A937B1 /* ButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +56,11 @@
 		5004587323F682D200A793CD /* NVCDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVCDUITests.swift; sourceTree = "<group>"; };
 		5004587523F682D200A793CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		507EC1EF241992EC00BE356D /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		50C45CBD241A5C0900A040D7 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		5081D7E92420BA8E00A937B1 /* Nurse2patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nurse2patient.swift; sourceTree = "<group>"; };
+		5081D7EB2420BABC00A937B1 /* Family2patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Family2patient.swift; sourceTree = "<group>"; };
+		5081D7ED2420BAD100A937B1 /* EmergencyCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyCall.swift; sourceTree = "<group>"; };
+		5081D7EF2420BBBE00A937B1 /* GridStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStack.swift; sourceTree = "<group>"; };
+		5081D7F12420C21000A937B1 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +113,13 @@
 			children = (
 				5004585123F682CF00A793CD /* AppDelegate.swift */,
 				507EC1EF241992EC00BE356D /* Test.swift */,
-				50C45CBD241A5C0900A040D7 /* Grid.swift */,
 				5004585323F682CF00A793CD /* SceneDelegate.swift */,
 				5004585523F682CF00A793CD /* ContentView.swift */,
+				5081D7EF2420BBBE00A937B1 /* GridStack.swift */,
+				5081D7E92420BA8E00A937B1 /* Nurse2patient.swift */,
+				5081D7EB2420BABC00A937B1 /* Family2patient.swift */,
+				5081D7ED2420BAD100A937B1 /* EmergencyCall.swift */,
+				5081D7F12420C21000A937B1 /* ButtonStyle.swift */,
 				5004585723F682D200A793CD /* Assets.xcassets */,
 				5004585C23F682D200A793CD /* LaunchScreen.storyboard */,
 				5004585F23F682D200A793CD /* Info.plist */,
@@ -278,9 +290,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5004585223F682CF00A793CD /* AppDelegate.swift in Sources */,
+				5081D7EE2420BAD100A937B1 /* EmergencyCall.swift in Sources */,
+				5081D7F02420BBBE00A937B1 /* GridStack.swift in Sources */,
+				5081D7F22420C21000A937B1 /* ButtonStyle.swift in Sources */,
 				507EC1F0241992EC00BE356D /* Test.swift in Sources */,
 				5004585423F682CF00A793CD /* SceneDelegate.swift in Sources */,
-				50C45CBE241A5C0900A040D7 /* Grid.swift in Sources */,
+				5081D7EC2420BABC00A937B1 /* Family2patient.swift in Sources */,
+				5081D7EA2420BA8E00A937B1 /* Nurse2patient.swift in Sources */,
 				5004585623F682CF00A793CD /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
