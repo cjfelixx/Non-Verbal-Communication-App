@@ -4,4 +4,4 @@ An iOS application in partnership with Navian Hawaii
 Develop a mobile app that will assist patients in communicating with people non-verbally
 
 ## Software Requirements
-* XCODE
+* XCode(SwiftUI)

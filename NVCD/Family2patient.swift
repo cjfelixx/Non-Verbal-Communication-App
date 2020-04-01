@@ -32,7 +32,7 @@ struct Family2patient: View {
                     .frame(width: width/2.15,height:height/6.5)
                 .font(.system(size:width/15))
                 .modifier(ButtonStyle())
-                }
+                 }
             }
         }
     }

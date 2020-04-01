@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import UIKit
 
 let bounds = UIScreen.main.bounds
 let width = bounds.size.width

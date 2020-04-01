@@ -28,7 +28,7 @@ struct Firstpage: View {
         
         VStack(spacing: height/140){
             GridStack(rows: 2, columns: 2){ row, col in
-                Button(action: {withAnimation{self.click.toggle()}})
+                Button(action: {})
                 {
                 Text(self.Nurse2patientarr[row*2 + col])
                 .multilineTextAlignment(.center)
